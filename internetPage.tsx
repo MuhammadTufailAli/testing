@@ -40,6 +40,13 @@ function InternetPage() {
   
   
 
+
+
+
+
+
+  console.log("Haseeb commit")
+
   // Use useEffect to avoid navigating during the render cycle
   useEffect(() => {
     if (cityname.length === 0) {
