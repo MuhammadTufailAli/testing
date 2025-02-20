@@ -36,7 +36,7 @@ function InternetPage() {
     [`${processedEncodeToBase64('selectedCityName')}`]: processedEncodeToBase64(selectedCityName),
   }).toString();
   
-  const targetUrl = `https://devcustomer.nayatel.com/CP/signup/selectArea?${queryParams}`;
+  const targetUrl = `https://customer.nayatel.com/CP/signup/selectArea?${queryParams}`;
   
   
 
