@@ -37,6 +37,8 @@ function InternetPage() {
   }).toString();
   
   const targetUrl = `https://customer.nayatel.com/CP/signup/selectArea?${queryParams}`;
+
+  console.log("i am learning gitkraken")
   
   
 
