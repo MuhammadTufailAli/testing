@@ -14,6 +14,8 @@ import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import CommonSliderHeading from '@/app/modules/Corporate/CommonSlider/CommonSliderHeading';
 
 
+
+
 const processedEncodeToBase64 = (data: string) => {
   let base64 = Buffer.from(data, 'utf-8').toString('base64');
   base64 = base64.replace(/\+/g, '-').replace(/\//g, '_');
